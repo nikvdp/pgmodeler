@@ -32,3 +32,6 @@ jobs:
      
     - name: Deploying pgModeler
       run: make install
+
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
